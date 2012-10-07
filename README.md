@@ -13,7 +13,7 @@ This is just a several wrappers.
 
 ### Usage
 
-To use, add this repo as a git module in your project (or add the files however you want), and then include 
+To use, add this repo as a [git submodule](http://git-scm.com/book/en/Git-Tools-Submodules) in your project (or add the files however you want), and then include 
 the path to `raphael.amd` in your `require.config()` `paths`. For example in your `main.js`
 
     require.config({
