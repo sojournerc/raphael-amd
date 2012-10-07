@@ -1,16 +1,22 @@
 raphael-amd
 ===========
 
+### About
+
 AMD ([requirejs](http://requirejs.org/)) support for the fantastic [Raphael](https://github.com/DmitryBaranovskiy/raphael) vector graphic library
 
 Uses `Raphael.ninja()` and `define()` wrappers to add AMD support to Raphael.
 
 Essentially a copy of Chris Jensenuk's Raphael use in [DrawSvg](https://github.com/chrisjensenuk/DrawSvg)
 
+This is just a several wrappers.
+
+### Usage
+
 To use, add this repo as a git module in your project (or add the files however you want), and then include 
 the path to `raphael.amd` in your `require.config()` `paths`. For example in your `main.js`
 
-  require.config({
+    require.config({
     // ...
     paths: {
       // ...
