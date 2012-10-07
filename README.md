@@ -9,7 +9,7 @@ Uses `Raphael.ninja()` and `define()` wrappers to add AMD support to Raphael.
 
 Essentially a copy of Chris Jensenuk's Raphael use in [DrawSvg](https://github.com/chrisjensenuk/DrawSvg)
 
-This is just a several wrappers.
+This git repo is just several wrappers.
 
 ### Usage
 
