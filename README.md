@@ -29,6 +29,6 @@ Now you can use `raphael` as a dependency in your `define`s and `require`s:
 
 or
 
-   require(['raphael'], function(Raphael) {
+    require(['raphael'], function(Raphael) {
 
     
