@@ -13,6 +13,10 @@
 // Apps that want to load a plain old script that exports window.raphael
 // should use the combined raphael.js file.
 
-define(['../vendor/raphael.2.1.0.core', '../vendor/raphael.2.1.0.svg', '../vendor/raphael.2.1.0.vml'], function (R) {
+define([
+	'/js/libs/raphael/raphael.2.1.0.core.js', 
+	'/js/libs/raphael/raphael.2.1.0.svg.js', 
+	'/js/libs/raphael/raphael.2.1.0.vml.js'
+], function (R) {
     return R.ninja();
 });

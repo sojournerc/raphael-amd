@@ -5,7 +5,9 @@
 // │ Copyright (c) 2008-2011 Sencha Labs (http://sencha.com)             │ \\
 // │ Licensed under the MIT (http://raphaeljs.com/license.html) license. │ \\
 // └─────────────────────────────────────────────────────────────────────┘ \\
-define(['../vendor/eve.0.3.4'], function (eve) {
+define([
+        '/js/libs/raphael/eve.0.3.4.js'
+    ], function (eve) {
     /*\
      * Raphael
      [ method ]

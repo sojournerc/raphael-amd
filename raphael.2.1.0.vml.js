@@ -9,7 +9,9 @@
 // └─────────────────────────────────────────────────────────────────────┘ \\
 
 
-define(['../../vendor/raphael/raphael.2.1.0.core'], function (R) {
+define([
+        '/js/libs/raphael/raphael.2.1.0.core.js'
+    ], function (R) {
     if (!R.vml) return;
 
     var has = "hasOwnProperty",
